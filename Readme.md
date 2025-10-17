@@ -1,4 +1,4 @@
-***Server Setup in Linux***
+# ***Server Setup in Linux***
 
 Step 1: Install VirtualBox according to your Operating System from Url:https://www.virtualbox.org/wiki/Downloads
 
