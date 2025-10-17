@@ -33,15 +33,14 @@ Download VirtualBox Platform Packages \& VirtualBox Extension Pack
 ![alt text](image-10.png)
 ---
 
-**Step 5: Open terminal by Right clicking in desktop or search "terminal" in windows search.**
+**Step 5: Open terminal or Control Pannel by Right clicking in desktop or search "terminal" or "CMD" in windows search.**
 ---
 ![alt text](image-11.png)
-![alt text](image-17.png)
 ![alt text](image-12.png)
 ---
 **Step 6: Type the following commands**
 ---
-![alt text](image-16.png)
+
 
 # ***Note***
 
