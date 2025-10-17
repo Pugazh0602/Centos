@@ -52,7 +52,7 @@ Download VirtualBox Platform Packages \& VirtualBox Extension Pack
 
    **If you see "lines 1-20/20 (END)" Press " q "**
    **This Exit the log**
-
+---
 
 
 # ***Connect to VM centos From windows terminal***
@@ -73,17 +73,17 @@ startlab1
 ```
 ![alt text](image-13.png)
 
-# ***Install Httpd***
-```sh
-sudo yum install httpd -y
-```
-
+**Press q to Exit Log**
 
 # ***Check if httpd is installed***
 ```sh
 sudo systemctl status httpd
 ```
 
+# ***Install Httpd(If not installed)***
+```sh
+sudo yum install httpd -y
+```
 
 # ***Stop firewall temporarily (so Windows can access Apache Server )***
 ```sh
