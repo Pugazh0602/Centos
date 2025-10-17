@@ -50,59 +50,59 @@ Step 6: Type the following commands
 
 &nbsp;	#If you see somthing like "lines 1-20/20 (END)" Press " q "
 
-```sh
+
 
 # ***connect to VM centos From windows terminal***
-
+```sh
 ssh centos@localhost
-
+```
 
 
 #password 
-
+```sh
 centos
-
+```
 
 
 # ***Start the Lab Environment*** 
-
+```sh
 startlab1
-
+```
 
 
 #***Install Httpd***
-
+```sh
 sudo yum install httpd -y
-
+```
 
 
 # ***Check if httpd is installed***
-
+```sh
 sudo systemctl status httpd
-
+```
 ![alt text](image-13.png)
 
 # ***Stop firewall temporarily (so Windows can access Apache Server )***
-
+```sh
 sudo systemctl stop firewalld
-
+```
 
 
 # ***Start Apache (httpd) Service***
-
+```sh
 sudo systemctl start httpd
-
+```
 
 
 # ***Enable Apache to start on boot (Optional)***
 #This makes Apache start on every boot.
-
+```sh
 sudo systemctl enable httpd
-
+```
 # ***Check status***
-
+```sh
 sudo systemctl status httpd
-
+```
 ![alt text](image-15.png)
 
 #You should see:
@@ -111,11 +111,12 @@ sudo systemctl status httpd
 
 
 #Step 7: Open your Windows browser and go to:
+```sh
 http://localhost:8080/
-
+```
 ![alt text](image-14.png)
 
-```
+
 
 **Congratulations you  have successfully started the server.**
 
