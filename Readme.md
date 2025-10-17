@@ -78,7 +78,7 @@ sudo yum install httpd -y
 
 sudo systemctl status httpd
 
-
+![alt text](image-13.png)
 
 \# Stop firewall temporarily (so Windows can access Apache Server )
 
@@ -104,7 +104,7 @@ This makes Apache start on every boot.
 
 sudo systemctl status httpd
 
-
+![alt text](image-15.png)
 
 You should see:
 
@@ -115,6 +115,8 @@ Active: active (running)
 
 
 Step 7: Open your Windows browser and go to:**http://localhost:8080/**
+
+![alt text](image-14.png)
 
 '''
 
