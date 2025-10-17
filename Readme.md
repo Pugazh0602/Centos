@@ -1,6 +1,6 @@
 # ***Server Setup in Linux***
 
-Step 1: Install VirtualBox according to your Operating System from Url:https://www.virtualbox.org/wiki/Downloads
+**Step 1: Install VirtualBox according to your Operating System from Url:https://www.virtualbox.org/wiki/Downloads**
 
 Download VirtualBox Platform Packages \& VirtualBox Extension Pack 
 ![alt text](image.png)
@@ -15,11 +15,9 @@ Download VirtualBox Platform Packages \& VirtualBox Extension Pack
 
 ![alt text](image-7.png)
 
-Step 2: Download Centos from Url:https://drive.google.com/file/d/1QXdagFhT5kchGL-iLlDSkcN2RqIskLmX/view or Url:https://www.centos.org/download/
+**Step 2: Download Centos from Url:https://drive.google.com/file/d/1QXdagFhT5kchGL-iLlDSkcN2RqIskLmX/view or Url:https://www.centos.org/download/**
 
-
-
-Step 3: Extract the Centos Iso \& Double Click the Iso file. The VM will automatically run the Centos.
+**Step 3: Extract the Centos Iso \& Double Click the Iso file. The VM will automatically run the Centos.**
 
 ![alt text](image-1.png)
 
@@ -30,35 +28,36 @@ Step 3: Extract the Centos Iso \& Double Click the Iso file. The VM will automat
 ![alt text](image-9.png)
 
 
-Step 4: Enter "centos" for LocalHost login and password.
+**Step 4: Enter "centos" for LocalHost login and password.**
 
 ![alt text](image-10.png)
 
 
 
-Step 5: Open terminal by Right clicking in desktop or search "terminal" in windows search.
+**Step 5: Open terminal by Right clicking in desktop or search "terminal" in windows search.**
 
 ![alt text](image-11.png)
 
 ![alt text](image-12.png)
 
-Step 6: Type the following commands 
+**Step 6: Type the following commands**
 
 
 
 # ***Note***
 
-# If you see somthing like "lines 1-20/20 (END)" Press " q "
+   **If you see "lines 1-20/20 (END)" Press " q "**
+   **This Exit the log**
 
 
 
-# ***connect to VM centos From windows terminal***
+# ***Connect to VM centos From windows terminal***
 ```sh
 ssh centos@localhost
 ```
 
 
-# password 
+# Password 
 ```sh
 centos
 ```
@@ -110,7 +109,7 @@ sudo systemctl status httpd
 # Active: active (running)
 
 
-#Step 7: Open your Windows browser and go to:
+**Step 7: Open your Windows browser and go to:**
 ```sh
 http://localhost:8080/
 ```
