@@ -125,7 +125,7 @@ sudo systemctl start httpd
 ```sh
 sudo systemctl enable httpd
 ```
-# ***Check status***
+***Check status***
 ```sh
 sudo systemctl status httpd
 ```
