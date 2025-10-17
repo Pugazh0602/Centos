@@ -1,3 +1,5 @@
+***Server Setup in Linux***
+
 Step 1: Install VirtualBox according to your Operating System from Url:https://www.virtualbox.org/wiki/Downloads
 
 Download VirtualBox Platform Packages \& VirtualBox Extension Pack 
@@ -44,13 +46,13 @@ Step 6: Type the following commands
 
 '''
 
-\#Note 
+\# ***Note ***
 
 &nbsp;	#If you see somthing like "lines 1-20/20 (END)" Press " q "
 
 
 
-\#connect to VM centos From windows terminal 
+\# ***connect to VM centos From windows terminal***
 
 ssh centos@localhost
 
@@ -62,39 +64,39 @@ centos
 
 
 
-\#Start the Lab Environment 
+\# ***Start the Lab Environment*** 
 
 startlab1
 
 
 
-\#Install Httpd 
+\#***Install Httpd***
 
 sudo yum install httpd -y
 
 
 
-\#Check if httpd is installed
+\# ***Check if httpd is installed***
 
 sudo systemctl status httpd
 
 ![alt text](image-13.png)
 
-\# Stop firewall temporarily (so Windows can access Apache Server )
+\# ***Stop firewall temporarily (so Windows can access Apache Server )***
 
 sudo systemctl stop firewalld
 
 
 
-\# Start Apache (httpd) Service
+\# ***Start Apache (httpd) Service***
 
 sudo systemctl start httpd
 
 
 
-\# Enable Apache to start on boot (Optional)
+\# ***Enable Apache to start on boot (Optional)***
 
-sudo systemctl enable httpd
+#sudo systemctl enable httpd
 
 This makes Apache start on every boot.
 
