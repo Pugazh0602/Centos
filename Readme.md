@@ -75,75 +75,87 @@ Download VirtualBox Platform Packages \& VirtualBox Extension Pack
 
 
 ***Connect to VM centos From windows terminal***
+---
 ```sh
 ssh centos@localhost
 ```
 ![alt text](image-26.png)
-
+---
 ***Password*** 
+---
 ```sh
 centos
 ```
 ![alt text](image-27.png)
-
+---
 ***Start the Lab Environment*** 
+---
 ```sh
 startlab1
 ```
 ![alt text](image-13.png)
-
+---
 
 ***Check if httpd is installed***
+---
 ```sh
 sudo systemctl status httpd
 ```
 ![alt text](image-28.png)
 **Press q to Exit Log**
+---
 
 ***Install Httpd(If not installed)***
+---
 ```sh
 sudo yum install httpd -y
 ```
 
 ***Stop firewall temporarily (so Windows can access Apache Server )***
+---
 ```sh
 sudo systemctl stop firewalld
 ```
 
 
 ***Start Apache (httpd) Service***
+---
 ```sh
 sudo systemctl start httpd
 ```
 ![alt text](image-29.png)
-***Press q to Exit Log***
 
+***Press q to Exit Log***
+---
 
 ***Enable Apache to start on boot (Optional)***
 ***This makes Apache start on every boot.***
+---
 ```sh
 sudo systemctl enable httpd
 ```
 ***Check status***
+---
 ```sh
 sudo systemctl status httpd
 ```
 ![alt text](image-15.png)
-
+---
 ***You should see:***
 
 ***Active: active (running)***
-
+---
 
 **Step 8: Open your Windows browser and go to:**
+---
 ```sh
 http://localhost:8080/
 ```
 ![alt text](image-14.png)
-
+---
 
 
 **Congratulations you  have successfully started the server.**
-
+===
 
 
