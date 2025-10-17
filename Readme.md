@@ -31,7 +31,17 @@ Download VirtualBox Platform Packages \& VirtualBox Extension Pack
 ---
 ![alt text](image-8.png)
 ---
-![alt text](image-9.png)
+![alt text](image-19.png)
+---
+***Step 4: Setup network in VM Box***
+---
+![alt text](image-20.png)
+---
+![alt text](image-21.png)
+---
+![alt text](image-22.png)
+---
+![alt text](image-23.png)
 ---
 
 **Step 4: Enter "centos" for LocalHost login and password.**
