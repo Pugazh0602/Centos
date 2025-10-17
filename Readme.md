@@ -69,59 +69,58 @@ Download VirtualBox Platform Packages \& VirtualBox Extension Pack
 
 # ***Note***
 
-   **If you see "lines 1-20/20 (END)" Press " q "**
-   **This Exit the log**
+   ***If you see "lines 1-20/20 (END)" Press " q "***
+   ***This Exit the log***
 ---
 
 
-# ***Connect to VM centos From windows terminal***
+***Connect to VM centos From windows terminal***
 ```sh
 ssh centos@localhost
 ```
 ![alt text](image-26.png)
 
-# Password 
+***Password*** 
 ```sh
 centos
 ```
 ![alt text](image-27.png)
 
-# ***Start the Lab Environment*** 
+***Start the Lab Environment*** 
 ```sh
 startlab1
 ```
 ![alt text](image-13.png)
 
 
-
-# ***Check if httpd is installed***
+***Check if httpd is installed***
 ```sh
 sudo systemctl status httpd
 ```
 ![alt text](image-28.png)
 **Press q to Exit Log**
 
-# ***Install Httpd(If not installed)***
+***Install Httpd(If not installed)***
 ```sh
 sudo yum install httpd -y
 ```
 
-# ***Stop firewall temporarily (so Windows can access Apache Server )***
+***Stop firewall temporarily (so Windows can access Apache Server )***
 ```sh
 sudo systemctl stop firewalld
 ```
 
 
-# ***Start Apache (httpd) Service***
+***Start Apache (httpd) Service***
 ```sh
 sudo systemctl start httpd
 ```
 ![alt text](image-29.png)
-**Press q to Exit Log**
+***Press q to Exit Log***
 
 
-**Enable Apache to start on boot (Optional)**
-**This makes Apache start on every boot.**
+***Enable Apache to start on boot (Optional)***
+***This makes Apache start on every boot.***
 ```sh
 sudo systemctl enable httpd
 ```
@@ -131,9 +130,9 @@ sudo systemctl status httpd
 ```
 ![alt text](image-15.png)
 
-# You should see:
+***You should see:***
 
-# Active: active (running)
+***Active: active (running)***
 
 
 **Step 8: Open your Windows browser and go to:**
