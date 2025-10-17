@@ -9,6 +9,10 @@ Download VirtualBox Platform Packages \& VirtualBox Extension Pack
 
 ![alt text](image-4.png)
 
+![alt text](image-17.png)
+
+![alt text](image-18.png)
+
 ![alt text](image-5.png)
 
 ![alt text](image-6.png)
@@ -16,6 +20,8 @@ Download VirtualBox Platform Packages \& VirtualBox Extension Pack
 ![alt text](image-7.png)
 ---
 **Step 2: Download Centos from Url:https://drive.google.com/file/d/1QXdagFhT5kchGL-iLlDSkcN2RqIskLmX/view or Url:https://www.centos.org/download/**
+
+![alt text](image-16.png)
 ---
 **Step 3: Extract the Centos Iso \& Double Click the Iso file. The VM will automatically run the Centos.**
 ---
@@ -65,7 +71,7 @@ centos
 ```sh
 startlab1
 ```
-
+![alt text](image-13.png)
 
 # ***Install Httpd***
 ```sh
@@ -77,7 +83,7 @@ sudo yum install httpd -y
 ```sh
 sudo systemctl status httpd
 ```
-![alt text](image-13.png)
+
 
 # ***Stop firewall temporarily (so Windows can access Apache Server )***
 ```sh
