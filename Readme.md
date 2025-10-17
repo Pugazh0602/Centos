@@ -23,17 +23,24 @@ Step 3: Extract the Centos Iso \& Double Click the Iso file. The VM will automat
 
 ![alt text](image-2.png)
 
+![alt text](image-8.png)
+
+![alt text](image-9.png)
 
 
 Step 4: Enter "centos" for LocalHost login and password.
+
+![alt text](image-10.png)
 
 
 
 Step 5: Open terminal by Right clicking in desktop or search "terminal" in windows search.
 
-
+![alt text](image-11.png)
 
 Step 6: Type the following commands 
+
+'''
 
 \#Note 
 
@@ -107,7 +114,7 @@ Active: active (running)
 
 Step 7: Open your Windows browser and go to:**http://localhost:8080/**
 
-
+'''
 
 **Congratulations you  have successfully started the server.**
 
