@@ -48,17 +48,17 @@ Download VirtualBox Platform Packages \& VirtualBox Extension Pack
 ![alt text](image-23.png)
 ---
 
-**Step 4: Enter "centos" for LocalHost login and password.**
+**Step 5: Enter "centos" for LocalHost login and password.**
 ---
 ![alt text](image-10.png)
 ---
 
-**Step 5: Open terminal or Control Pannel by Right clicking in desktop or search "terminal" or "CMD" in windows search.**
+**Step 6: Open terminal or Control Pannel by Right clicking in desktop or search "terminal" or "CMD" in windows search.**
 ---
 ![alt text](image-11.png)
 ![alt text](image-12.png)
 ---
-**Step 6: Type the following commands**
+**Step 7: Type the following commands**
 ---
 
 
@@ -127,7 +127,7 @@ sudo systemctl status httpd
 # Active: active (running)
 
 
-**Step 7: Open your Windows browser and go to:**
+**Step 8: Open your Windows browser and go to:**
 ```sh
 http://localhost:8080/
 ```
