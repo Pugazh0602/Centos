@@ -58,7 +58,7 @@ ssh centos@localhost
 ```
 
 
-#password 
+# password 
 ```sh
 centos
 ```
@@ -70,7 +70,7 @@ startlab1
 ```
 
 
-#***Install Httpd***
+# ***Install Httpd***
 ```sh
 sudo yum install httpd -y
 ```
@@ -95,7 +95,7 @@ sudo systemctl start httpd
 
 
 # ***Enable Apache to start on boot (Optional)***
-#This makes Apache start on every boot.
+# This makes Apache start on every boot.
 ```sh
 sudo systemctl enable httpd
 ```
@@ -105,9 +105,9 @@ sudo systemctl status httpd
 ```
 ![alt text](image-15.png)
 
-#You should see:
+# You should see:
 
-#Active: active (running)
+# Active: active (running)
 
 
 #Step 7: Open your Windows browser and go to:
