@@ -35,12 +35,16 @@ Download VirtualBox Platform Packages \& VirtualBox Extension Pack
 ---
 ***Step 4: Setup network in VM Box***
 ---
+**Open Settings**
 ![alt text](image-20.png)
 ---
+**Open network settings**
 ![alt text](image-21.png)
 ---
+**Click Port Forwarding**
 ![alt text](image-22.png)
 ---
+**Set http values as shown in the Image**
 ![alt text](image-23.png)
 ---
 
