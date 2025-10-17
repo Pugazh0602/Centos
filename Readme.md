@@ -31,9 +31,11 @@ Download VirtualBox Platform Packages \& VirtualBox Extension Pack
 ---
 ![alt text](image-8.png)
 ---
+![alt text](image-24.png)
+---
 ![alt text](image-19.png)
 ---
-***Step 4: Setup network in VM Box***
+***Step 4: Setup network in VM Box and Starting centos***
 ---
 **Open Settings**
 ![alt text](image-20.png)
@@ -47,13 +49,16 @@ Download VirtualBox Platform Packages \& VirtualBox Extension Pack
 **Set http values as shown in the Image**
 ![alt text](image-23.png)
 ---
+**Click Start**
+![alt text](image-25.png)
+---
 
 **Step 5: Enter "centos" for LocalHost login and password.**
 ---
 ![alt text](image-10.png)
 ---
 
-**Step 6: Open terminal or Control Pannel by Right clicking in desktop or search "terminal" or "CMD" in windows search.**
+**Step 6: Open terminal or Command prompt by Right clicking in desktop or search "terminal" or "CMD" in windows search.**
 ---
 ![alt text](image-11.png)
 ![alt text](image-12.png)
@@ -73,13 +78,13 @@ Download VirtualBox Platform Packages \& VirtualBox Extension Pack
 ```sh
 ssh centos@localhost
 ```
-
+![alt text](image-26.png)
 
 # Password 
 ```sh
 centos
 ```
-
+![alt text](image-27.png)
 
 # ***Start the Lab Environment*** 
 ```sh
@@ -87,12 +92,14 @@ startlab1
 ```
 ![alt text](image-13.png)
 
-**Press q to Exit Log**
+
 
 # ***Check if httpd is installed***
 ```sh
 sudo systemctl status httpd
 ```
+![alt text](image-28.png)
+**Press q to Exit Log**
 
 # ***Install Httpd(If not installed)***
 ```sh
@@ -109,10 +116,12 @@ sudo systemctl stop firewalld
 ```sh
 sudo systemctl start httpd
 ```
+![alt text](image-29.png)
+**Press q to Exit Log**
 
 
 # ***Enable Apache to start on boot (Optional)***
-# This makes Apache start on every boot.
+**This makes Apache start on every boot.**
 ```sh
 sudo systemctl enable httpd
 ```
