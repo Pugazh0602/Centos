@@ -141,8 +141,8 @@ sudo systemctl status httpd
 ```
 ![alt text](image-15.png)
 ---
-***You should see:***
 
+***You should see:***
 ***Active: active (running)***
 ---
 
