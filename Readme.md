@@ -48,7 +48,7 @@ Step 6: Type the following commands
 
 # ***Note***
 
-&nbsp;	#If you see somthing like "lines 1-20/20 (END)" Press " q "
+# If you see somthing like "lines 1-20/20 (END)" Press " q "
 
 
 
