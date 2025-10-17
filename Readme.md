@@ -128,7 +128,7 @@ sudo systemctl start httpd
 ***Press q to Exit Log***
 ---
 
-***Enable Apache to start on boot (Optional)***
+***Enable Apache to start on boot (Optional).***
 ***This makes Apache start on every boot.***
 ---
 ```sh
