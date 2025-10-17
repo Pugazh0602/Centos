@@ -44,13 +44,13 @@ Step 5: Open terminal by Right clicking in desktop or search "terminal" in windo
 
 Step 6: Type the following commands 
 
-```sh
+
 
 # ***Note***
 
 &nbsp;	#If you see somthing like "lines 1-20/20 (END)" Press " q "
 
-
+```sh
 
 # ***connect to VM centos From windows terminal***
 
