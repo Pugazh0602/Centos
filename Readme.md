@@ -100,7 +100,7 @@ This makes Apache start on every boot.
 
 
 
-\# Check status
+# ***Check status***
 
 sudo systemctl status httpd
 
