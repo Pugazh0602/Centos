@@ -1,14 +1,27 @@
 Step 1: Install VirtualBox according to your Operating System from Url:https://www.virtualbox.org/wiki/Downloads
 
 Download VirtualBox Platform Packages \& VirtualBox Extension Pack 
+![alt text](image.png)
 
+![alt text](image-3.png)
 
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
+
+![alt text](image-7.png)
 
 Step 2: Download Centos from Url:https://drive.google.com/file/d/1QXdagFhT5kchGL-iLlDSkcN2RqIskLmX/view or Url:https://www.centos.org/download/
 
 
 
 Step 3: Extract the Centos Iso \& Double Click the Iso file. The VM will automatically run the Centos.
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
 
 
 
@@ -21,8 +34,6 @@ Step 5: Open terminal by Right clicking in desktop or search "terminal" in windo
 
 
 Step 6: Type the following commands 
-
-&nbsp;
 
 \#Note 
 
