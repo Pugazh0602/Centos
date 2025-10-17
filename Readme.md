@@ -38,6 +38,8 @@ Step 5: Open terminal by Right clicking in desktop or search "terminal" in windo
 
 ![alt text](image-11.png)
 
+![alt text](image-12.png)
+
 Step 6: Type the following commands 
 
 '''
