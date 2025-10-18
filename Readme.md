@@ -14,8 +14,9 @@
 **Click Next**
 ![alt text](image-17.png)
 ---
-**Click Yes**
+**Click Yes or to fix this run cmd as administator and run py -m pip install pywin32**
 ![alt text](image-18.png)
+![alt text](image-31.png)
 ---
 **Click Yes**
 ![alt text](image-5.png)
@@ -69,6 +70,9 @@
 ---
 ![alt text](image-11.png)
 ![alt text](image-12.png)
+**or**
+![alt text](image-32.png)
+![alt text](image-33.png)
 ---
 **Step 7: Type the following commands**
 ---
@@ -118,12 +122,6 @@ sudo systemctl status httpd
 sudo yum install httpd -y
 ```
 
-***Stop firewall temporarily (so Windows can access Apache Server )***
----
-```sh
-sudo systemctl stop firewalld
-```
-
 
 ***Start Apache (httpd) Service***
 ---
@@ -161,6 +159,13 @@ http://localhost:8080/
 ![alt text](image-14.png)
 ---
 
+***Troubleshooting***
+---
+***Stop firewall temporarily (so Windows can access Apache Server )***
+---
+```sh
+sudo systemctl stop firewalld
+```
 
 **Congratulations you  have successfully started the server.**
 ===
