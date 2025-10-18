@@ -2,21 +2,28 @@
 
 **Step 1: Install VirtualBox according to your Operating System from Url:https://www.virtualbox.org/wiki/Downloads**
 ---
-Download VirtualBox Platform Packages \& VirtualBox Extension Pack 
+**Download VirtualBox Platform Packages \& VirtualBox Extension Pack**
 ![alt text](image.png)
-
+---
+**Click Next**
 ![alt text](image-3.png)
-
+---
+**Click Next**
 ![alt text](image-4.png)
-
+---
+**Click Next**
 ![alt text](image-17.png)
-
+---
+**Click Yes**
 ![alt text](image-18.png)
-
+---
+**Click Yes**
 ![alt text](image-5.png)
-
+---
+**Click Next**
 ![alt text](image-6.png)
-
+---
+**Click Finish**
 ![alt text](image-7.png)
 ---
 **Step 2: Download Centos from Url:https://drive.google.com/file/d/1QXdagFhT5kchGL-iLlDSkcN2RqIskLmX/view or Url:https://www.centos.org/download/**
