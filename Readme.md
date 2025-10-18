@@ -161,13 +161,13 @@ http://localhost:8080/
 
 ***Troubleshooting***
 ---
-***Stop firewall temporarily (so Windows can access Apache Server )***
+## *Stop firewall temporarily (so Windows can access Apache Server )*
 ---
 ```sh
 sudo systemctl stop firewalld
 ```
 
-**Congratulations you  have successfully started the server.**
+***Congratulations you  have successfully started the server.***
 ===
 
 
