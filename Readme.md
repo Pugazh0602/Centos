@@ -1,37 +1,37 @@
 # ***Server Setup in Linux***
 
-**Step 1: Install VirtualBox according to your Operating System from Url:https://www.virtualbox.org/wiki/Downloads**
+***Step 1: Install VirtualBox according to your Operating System from Url:https://www.virtualbox.org/wiki/Downloads***
 ---
 **Download VirtualBox Platform Packages \& VirtualBox Extension Pack**
 ![alt text](image.png)
 ---
-**Click Next**
+**Click "Next"**
 ![alt text](image-3.png)
 ---
-**Click Next**
+**Click "Next"**
 ![alt text](image-4.png)
 ---
-**Click Next**
+**Click "Next"**
 ![alt text](image-17.png)
 ---
-**Click Yes or to fix this run cmd as administator and run py -m pip install pywin32**
+**Click "Yes" or to fix this run cmd as administator and run py -m pip install pywin32**
 ![alt text](image-18.png)
 ![alt text](image-31.png)
 ---
-**Click Yes**
+**Click "Yes"**
 ![alt text](image-5.png)
 ---
-**Click Next**
+**Click "Next"**
 ![alt text](image-6.png)
 ---
-**Click Finish**
+**Click "Finish"**
 ![alt text](image-7.png)
 ---
-**Step 2: Download Centos from Url:https://drive.google.com/file/d/1QXdagFhT5kchGL-iLlDSkcN2RqIskLmX/view or Url:https://www.centos.org/download/**
+***Step 2: Download Centos from Url:https://drive.google.com/file/d/1QXdagFhT5kchGL-iLlDSkcN2RqIskLmX/view or Url:https://www.centos.org/download/***
 
 ![alt text](image-16.png)
 ---
-**Step 3: Extract the Centos Iso \& Double Click the Iso file. The VM will automatically run the Centos.**
+***Step 3: Extract the Centos Iso \& Double Click the Iso file. The VM will automatically run the Centos.***
 ---
 ![alt text](image-1.png)
 ---
@@ -61,12 +61,12 @@
 ![alt text](image-25.png)
 ---
 
-**Step 5: Enter "centos" for LocalHost login and password.**
+***Step 5: Enter "centos" for LocalHost login and password.***
 ---
 ![alt text](image-10.png)
 ---
 
-**Step 6: Open terminal or Command prompt by Right clicking in desktop or search "terminal" or "CMD" in windows search.**
+***Step 6: Open terminal or Command prompt by Right clicking in desktop or search "terminal" or "CMD" in windows search.***
 ---
 ![alt text](image-11.png)
 ![alt text](image-12.png)
@@ -74,7 +74,7 @@
 ![alt text](image-32.png)
 ![alt text](image-33.png)
 ---
-**Step 7: Type the following commands**
+***Step 7: Type the following commands***
 ---
 
 
@@ -151,7 +151,7 @@ sudo systemctl status httpd
 ***Active: active (running)***
 ---
 
-**Step 8: Open your Windows browser and go to:**
+***Step 8: Open your Windows browser and go to:***
 ---
 ```sh
 http://localhost:8080/
