@@ -14,7 +14,7 @@
 **Click "Next"**
 ![alt text](img/image-17.png)
 ---
-**Click "Yes" or to fix this run cmd as administator and run py -m pip install pywin32**
+**To fix this run cmd as administator and run py -m pip install pywin32 and Click "Yes"**
 ![alt text](img/image-18.png)
 ![alt text](img/image-31.png)
 ---
