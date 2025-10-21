@@ -3,7 +3,7 @@
 ***Step 1: Install VirtualBox according to your Operating System from Url:https://www.virtualbox.org/wiki/Downloads***
 ---
 **Download VirtualBox Platform Packages \& VirtualBox Extension Pack**
-![alt text](image.png)
+![alt text](img/image.png)
 ---
 **Click "Next"**
 ![alt text](img/image-3.png)
